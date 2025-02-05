@@ -1,0 +1,47 @@
+/* Base styles for the header */
+.header {
+    background-color: #2d3748; /* Dark gray background */
+    color: white;
+    padding: 20px 0;
+}
+
+/* Center content with max width */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Title styling */
+.title {
+    font-size: 2.25rem; /* text-3xl equivalent */
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Navigation styling */
+.nav {
+    margin-top: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for individual navigation items */
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: text-decoration 0.2s ease;
+}
+
+/* Hover effect for navigation links */
+.nav-link:hover {
+    text-decoration: underline;
+}

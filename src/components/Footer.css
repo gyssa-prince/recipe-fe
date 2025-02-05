@@ -1,0 +1,42 @@
+/* Base footer styling */
+.footer {
+    background-color: #2d3748; /* Dark gray background */
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* Container to center the content */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Footer text styling */
+.footer-text {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Social links container styling */
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Styling for social link items */
+.social-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: text-decoration 0.2s ease;
+}
+
+/* Hover effect for social links */
+.social-link:hover {
+    text-decoration: underline;
+}

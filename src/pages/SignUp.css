@@ -1,0 +1,97 @@
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 100px;
+    background-color: #f3f4f6;
+    position: relative;
+  }
+  
+  .back-home-button:hover {
+    background-color: #4b5563;
+  }
+  
+  .signup-form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .signup-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 16px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    font-size: 14px;
+    color: #4b5563;
+    margin-bottom: 4px;
+  }
+  
+  .form-input {
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #2563eb;
+  }
+  
+  .error-message {
+    color: #ef4444;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .submit-button {
+    padding: 8px 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    text-align: center;
+    color: #6b7280;
+  }
+  
+  .footer-link {
+    color: #2563eb;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
