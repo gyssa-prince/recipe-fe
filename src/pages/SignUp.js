@@ -1,6 +1,5 @@
 // src/components/SignUp.js
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Use useNavigate instead
 import './SignUp.css'; // Import the CSS file for styling
 
 const SignUp = () => {
@@ -8,7 +7,6 @@ const SignUp = () => {
   const [email, setEmail] = useState(''); // Separate state for email
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const navigate = useNavigate(); // Initialize useNavigate for navigation
 
   const handleSubmit = (e) => {
     e.preventDefault();
