@@ -8,11 +8,11 @@
     const [recipe, setRecipe] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const baseUrl = "http://127.0.0.1:8000";
+    const baseUrl = "https://recipe-be-45si.onrender.com";
     useEffect(() => {
       const fetchRecipe = async () => {
         try {
-          const response = await axios.get(`http://127.0.0.1:8000/api/recipes/${id}/`);
+          const response = await axios.get(`https://recipe-be-45si.onrender.com/api/recipes/${id}/`);
           const recipe = {
             ...response.data,
             ingredients: response.data.ingredients ? response.data.ingredients.split(',') : [],

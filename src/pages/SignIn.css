@@ -96,4 +96,10 @@
   .signup-link a:hover {
     text-decoration: underline;
   }
+  .dashboard li{
+    display: flex !important;
+}
+.dashboard li div{
+  margin-left: 10px;
+}
   
