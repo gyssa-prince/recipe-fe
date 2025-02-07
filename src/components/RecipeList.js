@@ -6,12 +6,12 @@ import './RecipeList.css'; // CSS file for styling
 const RecipeList = () => {
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true); // Add a loading state
-  const baseUrl = "http://127.0.0.1:8000";
+  const baseUrl = "https://recipe-be-45si.onrender.com";
   useEffect(() => {
     // Fetch recipes from the Django backend
     const fetchRecipes = async () => {
       try {
-        const response = await axios.get('http://127.0.0.1:8000/api/recipes/');
+        const response = await axios.get('https://recipe-be-45si.onrender.com/api/recipes/');
         setRecipes(response.data); // Set the fetched recipes
         setLoading(false); // Set loading to false after data is fetched
       } catch (error) {
