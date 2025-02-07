@@ -5,7 +5,7 @@ const LandingPage = () => {
   const [content, setContent] = useState(null);
   const baseUrl = "https://recipe-be-45si.onrender.com";
   useEffect(() => {
-    fetch("http://localhost:8000/api/landing-page-content/")
+    fetch("https://recipe-be-45si.onrender.com/api/landing-page-content/")
       .then((response) => response.json())
       .then((data) => setContent(data))
       .catch((error) => console.error("Error fetching content:", error));
